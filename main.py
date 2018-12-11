@@ -42,7 +42,7 @@ parser.add_argument(
 parser.add_argument(
     '--workers',
     type=int,
-    default=32,
+    default=5,
     metavar='W',
     help='how many training processes to use (default: 32)')
 parser.add_argument(
@@ -123,6 +123,7 @@ parser.add_argument(
 if __name__ == '__main__':
     args = parser.parse_args()
     torch.manual_seed(args.seed)
+    print("GPU Sachin", args.gpu_ids)
     if args.gpu_ids == -1:
         args.gpu_ids = [-1]
     else:

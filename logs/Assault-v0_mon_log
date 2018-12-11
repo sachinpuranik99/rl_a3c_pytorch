@@ -1,0 +1,14 @@
+2018-11-04 15:14:08,035 : log_dir: logs/
+2018-11-04 15:14:08,035 : seed: 1
+2018-11-04 15:14:08,035 : env: Assault-v0
+2018-11-04 15:14:08,036 : max_episode_length: 10000
+2018-11-04 15:14:08,036 : load_model_dir: trained_models/
+2018-11-04 15:14:08,036 : render: True
+2018-11-04 15:14:08,036 : num_episodes: 100
+2018-11-04 15:14:08,036 : gpu_id: -1
+2018-11-04 15:14:08,036 : new_gym_eval: False
+2018-11-04 15:14:08,036 : skip_rate: 4
+2018-11-04 15:14:08,036 : env_config: config.json
+2018-11-04 15:14:08,036 : render_freq: 1
+2018-11-04 15:17:28,788 : Time 00h 03m 20s, episode reward 798.0, episode length 1080, reward mean 798.0000
+2018-11-04 15:19:51,220 : Time 00h 05m 42s, episode reward 735.0, episode length 789, reward mean 766.5000

@@ -1,0 +1,12 @@
+2018-11-04 15:22:04,838 : render: True
+2018-11-04 15:22:04,838 : seed: 1
+2018-11-04 15:22:04,838 : load_model_dir: trained_models/
+2018-11-04 15:22:04,838 : render_freq: 1
+2018-11-04 15:22:04,838 : log_dir: logs/
+2018-11-04 15:22:04,839 : env_config: config.json
+2018-11-04 15:22:04,839 : new_gym_eval: False
+2018-11-04 15:22:04,839 : num_episodes: 100
+2018-11-04 15:22:04,839 : max_episode_length: 10000
+2018-11-04 15:22:04,839 : env: DemonAttack-v0
+2018-11-04 15:22:04,839 : gpu_id: -1
+2018-11-04 15:22:04,839 : skip_rate: 4

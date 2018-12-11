@@ -11,6 +11,7 @@ from torch.autograd import Variable
 
 def train(rank, args, shared_model, optimizer, env_conf):
     ptitle('Training Agent: {}'.format(rank))
+    print("Sachin", args.gpu_ids)
     gpu_id = args.gpu_ids[rank % len(args.gpu_ids)]
     torch.manual_seed(args.seed + rank)
     if gpu_id >= 0:
